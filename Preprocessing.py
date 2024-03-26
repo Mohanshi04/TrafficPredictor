@@ -20,8 +20,11 @@ data['Hour'] = data['DateTime'].dt.hour
 data['Minute'] = data['DateTime'].dt.minute
 data['Second'] = data['DateTime'].dt.second
 
-# Derive the day of the week and assign it to a new column
-data['WeekdayName'] = data['DateTime'].dt.strftime('%A')
+data['WeekDay'] = data['DateTime'].dt.weekday + 1
+#Monday is assigned 1, Tue 2 and so on..
+
+data = data.drop(['ID', 'DateTime'], axis=1)
+#dropped ID cause its ID and Datetime as we split Date, day, hr, second into different columns
 
 # Display the first few rows of the dataframe to verify the changes
 data.head()
