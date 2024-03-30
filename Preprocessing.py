@@ -20,10 +20,13 @@ data['Hour'] = data['DateTime'].dt.hour
 data['Minute'] = data['DateTime'].dt.minute
 data['Second'] = data['DateTime'].dt.second
 
-data['WeekDay'] = data['DateTime'].dt.weekday + 1
 #Monday is assigned 1, Tue 2 and so on..
+data['WeekDay'] = data['DateTime'].dt.weekday + 1
 
-data = data.drop(['ID', 'DateTime'], axis=1)
+# Drop ID because it is just for identification purpose and not of use in prediction
+# Drop Datetime as we split Date, day, hr, second into different columns
+# Drop Minute,Second as it is always 0 because the data is collected at every hour
+data = data.drop(['ID', 'DateTime','], axis=1)
 #dropped ID cause its ID and Datetime as we split Date, day, hr, second into different columns
 
 # Display the first few rows of the dataframe to verify the changes
