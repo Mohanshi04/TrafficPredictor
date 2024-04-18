@@ -1,0 +1,14 @@
+body{
+    font-family: 'Courier New', Courier;
+    padding: 2rem;
+    font-size: 1.25rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+}
+
+.contributors{
+    text-align: center;
+}
