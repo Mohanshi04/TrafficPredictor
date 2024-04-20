@@ -5,7 +5,7 @@ Traffic congestion is rising in cities around the world driven by factors such a
 
 ## Code Link
 
-[![colab link](https://img.shields.io/badge/Colab-Notebook-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![colab link](https://img.shields.io/badge/Colab-Notebook-yellow.svg)](https://colab.research.google.com/github/pran9803/TrafficPredictor/blob/main/Traffic_Prediction_Project.ipynb)
 
 
 
@@ -25,7 +25,7 @@ Traffic congestion is rising in cities around the world driven by factors such a
 
 **Project Page:** HTML, CSS
 
-## Authors
+## Contributors
 
 - Anushka Singh(B22AI008) : [Anushka-1603](https://github.com/Anushka-1603)
 - Hari Shubha(B22AI021) : [harishubha](https://github.com/harishubha)
