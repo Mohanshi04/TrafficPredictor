@@ -15,7 +15,7 @@ Traffic congestion is rising in cities around the world driven by factors such a
 
 ## Web Demo
 
-Click [here](https://github.com/pran9803) to see the demo!
+Click [here](https://huggingface.co/spaces/pran9803/TrafficPredictor) to see the demo!
 
 
 ## Tech Stack
