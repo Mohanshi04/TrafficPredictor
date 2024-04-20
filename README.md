@@ -13,6 +13,11 @@ Traffic congestion is rising in cities around the world driven by factors such a
 
 [![project vid](https://img.youtube.com/vi/x_N8bIW-9vo/0.jpg)](https://www.youtube.com/watch?v=x_N8bIW-9vo)
 
+## Web Demo
+
+Click [here](https://github.com/pran9803) to see the demo!
+
+
 ## Tech Stack
 
 **ML Tasks:** Scikit-learn
